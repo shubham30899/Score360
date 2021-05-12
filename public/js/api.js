@@ -1,6 +1,6 @@
 const request=require('request')
  
-console.log("Ruk Ja Nek Bsdk.....\n");
+// console.log("Ruk Ja Nek Bsdk.....\n");
 
 const oldMatches = (callback) => {
     const url="https://cricapi.com/api/matches?apikey=oiAtQNKqBjdWdz9QNbjVKxBtr7C3";

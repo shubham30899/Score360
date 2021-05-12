@@ -13,7 +13,7 @@ pForm.addEventListener('click', (e) => {
     x='<center> <span>LOADING </span> <div class="spinner-border text-danger"></div> </center>'
     q1.innerHTML=x
  
-    fetch('/stats?name=' + player_name).then((response) => {        
+    fetch('/player/stats?name=' + player_name).then((response) => {        
          response.json().then((data) => {  
         var j=data.pdata[0]
         var k=data.pdata[1]

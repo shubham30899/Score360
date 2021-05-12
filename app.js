@@ -61,7 +61,7 @@ app.get('/scorecard',(req,res) => {
     })
 })
 
-var uid=1254079
+// var uid=1254079
 
 app.get('/scorecard/extra/:uids',(req,res) => {
     uid = req.params.uids
