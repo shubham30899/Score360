@@ -1,0 +1,309 @@
+#t1 {
+    background : url('/img/W.jpg');
+    height: 170px;
+    color: white;
+    padding-top: 45px;
+    margin-bottom: 0px;
+}
+
+#dt{
+  font-size: small;
+  font-weight: lighter;
+  padding-top: 3px;
+}
+
+#lk{
+  background-color: black;
+  color: white;
+  padding-top: 15px;
+  margin-bottom: 0%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+#t2 {
+    color: whitesmoke;
+    /* background-color: black; */
+    padding: 6px 6px;
+    border-radius: 10px;
+    font-family: comic sans ms;
+}
+
+#nv1 {
+	margin-left: 20px;
+}
+
+div.scrollmenu {
+  font-family: verdana;
+  height: 150px;
+  background-color: black;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  /* border-radius: 10px; */
+  padding-top: 15px;
+  padding-right: 30px;
+  /* padding-bottom: 50px; */
+  border-right: 2px dashed red;
+  /* border-left: 2px solid red; */
+}
+
+div.scrollmenu a:hover {
+  background-color: #7FFFD4;
+  color: black;
+  border: 2px solid black;
+}
+
+#fg::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+background-color: #CCCCCC;
+}
+
+#fg::-webkit-scrollbar
+{
+width: 10px;
+background-color: #F5F5F5;
+}
+
+#fg::-webkit-scrollbar-thumb
+{
+background-color: #FFF;
+background-image: -webkit-linear-gradient(90deg,
+                                          rgba(0, 0, 0, 1) 0%,
+                      rgba(0, 0, 0, 1) 25%,
+                      transparent 100%,
+                      rgba(0, 0, 0, 1) 75%,
+                      transparent)
+}
+
+#nv3 {
+	color: white;
+    border-color: grey;
+    border-radius: 10px;
+    border-style: inset;
+}
+
+#grd {
+	align-content: left;
+  margin: 30px 30px;
+  margin-top: 40px;
+}
+
+#grd2 {
+    background-color: black;
+    font-family: Snell Roundhand, cursive;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin-bottom:20px;
+}
+
+#grid {
+	background-color: black;
+	color: white;
+}
+
+#g3 {
+    padding: 30px 30px;
+}
+
+#g5 {
+    margin-left: 110px;
+}
+
+#grid:hover {
+	background-color: grey;
+}
+
+#f {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    margin-bottom: 0px;
+    height: 300px;
+    padding-top: 35px;
+}
+#si{
+  /* padding: 3px 3px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 24px;
+  text-align: left;
+  outline: none;
+  color:black;
+  cursor:auto;
+  background-color: rgb(207, 200, 200);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 5px 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#sb {
+  text-decoration: none;
+  color: white;
+}
+
+#sa {
+  text-decoration: none;
+  color: white;
+}
+
+#st{
+  text-decoration: none;
+  color: white;
+}
+#cu {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  background-color: honeydew;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#cv {
+  padding-left: 30px;
+  text-decoration: none;
+  color: black;
+  font-family: verdana;
+}
+
+#cj {
+  background-color: black;
+  color: white;
+  border: 3px solid grey;
+  border-radius: 5px;
+  border-style: inset;
+  margin-left: 20px;
+  padding-left: 12px;
+  /* padding-right: 5px; */
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-right: 92%;
+}
+
+#mm {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 30px;
+  font-size: x-large;
+}
+
+#su {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #FFF0F5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#cm {
+  background-color: black;
+  color: white;
+  border: 3px solid grey;
+  border-radius: 5px;
+  border-style: inset;
+  margin-left: 20px;
+  padding-left: 12px;
+  /* padding-right: 5px; */
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-right: 72%;
+}
+
+#sz {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #FFF0F5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 3px solid grey;
+  padding: 10px 10px;
+  perspective: 1500px;
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /*padding-top: 30px;*/
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+}
+#pp{
+  margin:auto;
+  padding: 50px 30px;
+  /* width: 300px;
+  height:200px; */
+}
