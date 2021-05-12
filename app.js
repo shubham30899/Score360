@@ -2,6 +2,7 @@ const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
 const api= require('./public/js/api.js')
+const port=process.env.PORT || 4000
 
 const app = express()
 
@@ -121,6 +122,6 @@ app.get('/player/stats',(req,res)=>{
 //     })
 // })
 
-app.listen(4000, () => {
-    console.log('Server is up on port 4000.')
+app.listen(port, () => {
+    console.log('Server is up on port.'+ port)
 })
