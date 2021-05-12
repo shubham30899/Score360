@@ -3,7 +3,7 @@ var q6= document.querySelector('#sz')
 
 var k=''
 
-fetch('http://localhost:4000/scorecard/extra').then((response) => {
+fetch('/scorecard/extra').then((response) => {
     response.json().then((data)=> {
         k=''
         var ss= data.sdata
@@ -21,7 +21,7 @@ fetch('http://localhost:4000/scorecard/extra').then((response) => {
 var z='<center> <span>LOADING </span> <div class="spinner-border text-danger"></div> </center>'
 q5.innerHTML=z
 
-fetch('http://localhost:4000/matches/extra').then((response) => {
+fetch('/matches/extra').then((response) => {
     response.json().then((data)=> {
         z=''
         // console.log(data.fdata[0])

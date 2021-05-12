@@ -6,7 +6,7 @@ var q4= document.querySelector('#sb')
 x='<center> <span>LOADING </span> <div class="spinner-border text-danger"></div> </center>';
 // q1.innerHTML=x
 
-fetch('http://localhost:4000/score').then((response) => {
+fetch('/score').then((response) => {
      response.json().then((data)=>{
         data.cricdata.data.reverse();
         x=''
@@ -27,7 +27,7 @@ q3.addEventListener("click", () => {
     y=''
     y='<center> <span>LOADING </span> <div class="spinner-border text-danger"></div> </center>'
     q2.innerHTML=y
-    fetch('http://localhost:4000/matches/extra').then((response) => {
+    fetch('/matches/extra').then((response) => {
      response.json().then((data)=>{
         // console.log(data.fdata[0])
         var ss= data.fdata
@@ -46,7 +46,7 @@ q4.addEventListener("click", () => {
     y=''
     y='<center> <span>LOADING </span> <div class="spinner-border text-danger"></div> </center>'
     q2.innerHTML=y
-    fetch('http://localhost:4000/matches/extra').then((response) => {
+    fetch('/matches/extra').then((response) => {
      response.json().then((data)=>{
         // console.log(data.fdata[0])
         var st= data.jdata
