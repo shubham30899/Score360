@@ -3,9 +3,7 @@ const express = require('express')
 const hbs = require('hbs')
 const api= require('./public/js/api.js')
 const port=process.env.PORT || 4000
-
 const app = express()
-
 const publicDirectoryPath = path.join(__dirname, './public')
 const viewsPath = path.join(__dirname, './view')
 const partialsPath = path.join(__dirname, './partials')
@@ -18,6 +16,12 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('',(req,res) => {
     res.render('home',{ 
+        creator:'Shubham',
+        loop:5
+    })
+})
+app.get('/news',(req,res) => {
+    res.render('news',{ 
         creator:'Jatin',
         loop:5
     })
@@ -61,7 +65,7 @@ app.get('/scorecard',(req,res) => {
     })
 })
 
-// var uid=1254079
+var uid=1
 
 app.get('/scorecard/extra/:uids',(req,res) => {
     uid = req.params.uids
@@ -79,32 +83,32 @@ app.get('/scorecard/extra',(req,res) => {
 })
 
 
-app.get('/player',(req,res) => {
-    res.render('player',{ 
-        creator:'Jatin',
-        loop:5
-    })
-})
-app.get('/player/stats',(req,res)=>{
-    if (!req.query.name) {
-        return res.send({ 
-            error: 'You must provide a name'
-        })
-    }
-    api.playerId(req.query.name, (error, pId) => {
-        if (error) {
-            return res.send({ error })
-        }
-    api.playerInfo(pId,(error,pdata)=>{
-        if (error) {
-            return res.send({ error })
-        }
-        res.send({
-              pdata
-        })
-    })
-   })
-})
+// app.get('/player',(req,res) => {
+//     res.render('player',{ 
+//         creator:'Shubham',
+//         loop:5
+//     })
+// })
+// app.get('/player/stats',(req,res)=>{
+//     if (!req.query.name) {
+//         return res.send({ 
+//             error: 'You must provide a name'
+//         })
+//     }
+//     api.playerId(req.query.name, (error, pId) => {
+//         if (error) {
+//             return res.send({ error })
+//         }
+//     api.playerInfo(pId,(error,pdata)=>{
+//         if (error) {
+//             return res.send({ error })
+//         }
+//         res.send({
+//               pdata
+//         })
+//     })
+//    })
+// })
 
 // app.get('/help/*', (req, res) => {
 //     res.render('404', {
